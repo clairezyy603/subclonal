@@ -1,0 +1,8 @@
+name: subclonal
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.7
+  - samtools
+  - bwa          # only needed for validate.py
